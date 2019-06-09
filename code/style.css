@@ -63,7 +63,6 @@ a {
 }
 .col-desc {
   width: 700px;
-  overflow: scroll;
   padding-right: 10px;
 }
 .col-more {
