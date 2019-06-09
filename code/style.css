@@ -52,9 +52,8 @@ a {
   background-color: #fafafa;
 }
 .column {
-height:inherit;
-float: left;
-
+  height:inherit;
+  float: left;
 }
 .col-id {
   width: 50px;
@@ -62,17 +61,16 @@ float: left;
 .col-word {
   width: 150px;
 }
-
 .col-desc {
   width: 700px;
   overflow: scroll;
   padding-right: 10px;
 }
+.col-more {
+  width: 125px;
+}
 .vcenter {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-.col-more {
-  width: 125px;
 }
