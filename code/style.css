@@ -1,4 +1,78 @@
-/* Example styling of a h1 element */
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: He
+}
+header {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+footer {
+  padding: 100px 0 0 0;
+  text-align: center;
+}
 h1 {
-  color: #0025FF;
+  margin: 0;
+  font-family: 'Lora', serif;
+  padding: 15px 0 0 0;
+}
+h2 {
+  display:inline;
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  display:inline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+a {
+  font-family: 'Arial', sans-serif;
+  color: #aaa;
+}
+.source {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 8px;
+  color: #aaa;
+}
+.row-header {
+  overflow: auto;
+  height: 20px;
+  padding: 8px;
+  display: inline-block;
+  text-align: left;
+}
+.row {
+  height: 100px;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px 0 1px 4px;
+  border-color: #fff #fff #fff #bbb;
+  background-color: #fafafa;
+}
+.column {
+height:inherit;
+float: left;
+
+}
+.col-id {
+  width: 50px;
+}
+.col-word {
+  width: 150px;
+}
+
+.col-desc {
+  width: 700px;
+  overflow: scroll;
+  padding-right: 10px;
+}
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.col-more {
+  width: 125px;
 }
